@@ -1,0 +1,68 @@
+body{
+    color:white;
+    background:rgb(7, 7, 90);
+    margin:0px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom:100px;
+}
+
+header{
+    border-bottom:solid 2px rgb(49, 49, 177);
+    padding:25px;
+    font-size:32px;
+    color:rgb(57, 57, 255);
+}
+
+.chamada{
+    background:rgb(10, 10, 43);
+    padding-bottom:40px;
+    padding-top:40px;
+    display:flex;
+    justify-content: center;
+}
+
+.chama-texto{
+    margin-right:5%
+}
+
+h1{
+    font-size:40px;
+}
+
+p{
+    font-size:25px
+}
+
+img{
+    height:200px
+}
+
+.categoria-videos{
+    display:flex;
+    overflow-x:auto;
+    gap:10px
+}
+
+.categoria{
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:50px;
+}
+
+.categoria-videos img{
+    opacity:0.4;
+}
+
+.categoria-videos img:hover{
+    opacity:1.0;
+    border:2px solid;
+}
+
+section{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.div-video{
+    border:10px solid rgb(49, 49, 177);
+}
